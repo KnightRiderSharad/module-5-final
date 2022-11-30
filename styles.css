@@ -1,0 +1,176 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+/* navbar style */
+.navbar{
+    border-bottom: 1px solid white;
+}
+
+/* landing style */
+
+#home{
+    background-color: black;
+    color: white;  
+}
+
+/* Business landing with keyframe transition */
+
+.home-text {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    70% { opacity: 2; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    20% { opacity: 2; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 2; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 2; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 2; }
+  }
+
+
+
+/* down arrow icon style */
+i{
+ color: white;
+ font-size: 30px; 
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-icon{
+    border: none;
+    background-color: black;
+}
+i:hover{
+    color: yellowgreen;
+}
+
+
+
+/* about us section style */
+
+#about-us{
+    margin-top: 50px;
+    
+}
+#about-head{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#about-text{
+    padding-top: 20px;
+}
+#image-2{
+    width: 572px;
+    height: 600px;
+    padding: 20px;
+}
+
+
+/* services section style */
+.services-box{
+    min-height: 600px;
+}
+
+#services{
+    margin-top: 50px ;
+    font-weight: 700;
+}
+
+/* card style */
+.card{
+    margin: 50px auto;
+    padding: 10px 20px 25px;
+    overflow: hidden;
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+}
+
+
+  /* horizontal scrollbar style */
+#cards::-webkit-scrollbar {
+    width: 12px;     
+           
+}
+  
+#cards::-webkit-scrollbar-track {
+    background: white; 
+           
+}
+  
+#cards::-webkit-scrollbar-thumb {
+  background-color: black;    
+  border-radius: 20px;  
+  border:5px solid white;    
+  
+}
+
+
+/* contact section style */
+
+#contact-text{
+    text-align: center;
+    font-weight: 700;
+}
+
+/* form */
+
+#form{
+    background-color: black;
+    color: white;
+}
+
+input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 5px;
+}
+
+/* Submit form button style */
+
+#btn-submit{
+    border: none;
+    padding: 5px;
+    background-color: white;
+    color: black;
+
+}
+
